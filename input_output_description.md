@@ -20,6 +20,8 @@
     | ao_first_name_five  |     N    | 5th authorized officer’s first name (enter "N/A" if no 5th officer)  |
     | ao_last_name_five   |     N    | 5th authorized officer’s last name (enter "N/A" if no 5th officer)   |
     
+**__Reference file: sample.csv__**
+    
 ## Output
 - Output: a JSON list of objects with the email address ID as the main key; for every email address ID, there is a corresponding email address and business name along with the **_associated score_**. The associated score is the probability that a certain email address is associated with the given corresponding business name. 
 
@@ -30,4 +32,4 @@
 | business_name | Name of business trying to reach                                               |
 | assoc_score   | Probability that an email address is correctly associated with a business name |--------------------------------------------------------------------------------------------------
 
-**__Reference file: sample.zip.out__**
+**__Reference file: sample.csv.out__**
